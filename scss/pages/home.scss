@@ -1,2 +1,106 @@
 @import"../global";
 
+//header
+//--------
+.hero {
+  border-bottom: 10px solid $prime;
+  background: url("../../img/bg/bg-heor.jpg") no-repeat center center;
+  background-size: cover;
+
+  .hamburger {
+    color: $primeDark;
+    font-size: 3rem;
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $activeDark;
+    }
+
+    @media (max-width: $screen-sm){
+      display: block;
+
+    }
+  }
+
+     header {
+       padding-top: 4rem;
+
+    @media (max-width: $screen-md){
+      padding-top: 2rem;
+    }
+  }
+
+  .logo-name {
+    font-size: 2rem;
+    color: $primeDark;
+    font-weight: bold;
+
+    @media (max-width: $screen-md){
+      font-size: 1rem;
+    }
+  }
+
+  .hero-nav {
+    display: block;
+
+    @media (max-width: $screen-sm){
+      display: none;
+      margin-right: 15rem;
+    }
+  }
+
+  .hero-nav-item {
+    display: inline-block;
+
+    @media (max-width: $screen-sm){
+      display: block;
+    }
+  }
+
+  .hero-subtitle {
+    margin-bottom: 10rem;
+
+    @media (max-width: $screen-md){
+      margin-bottom: 6rem;
+    }
+
+    @media (max-width: $screen-sm){
+      margin-bottom: 4rem;
+    }
+  }
+
+  .hero-title {
+    font-size: 5rem;
+    color: $primeDark;
+    margin-bottom: 35rem;
+    line-height: 7rem;
+
+    @media (max-width: $screen-md){
+      font-size: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    @media (max-width: $screen-sm){
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.service-section {
+  .picture {
+    width: 16.5rem;
+    height: 16.5rem;
+    margin: 0 auto;
+  }
+
+  .service-description {
+    font-size: 1.6rem;
+    color: $gray;
+  }
+}
+
+section {
+  min-height: 20rem; 
+}
