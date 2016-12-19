@@ -2,6 +2,10 @@
 // Typography and text styles
 // ---------------------------
 
+html {
+  font-size: 10px; // static size
+}
+
 //
 // ---------------------------
 
@@ -12,7 +16,25 @@
 p {
   font-family: "Open Sans";
   font-size: 1.8rem;
+     
+}
+
+a {
+  font-family: "Open Sans";
+  font-size: 1.45rem;
+  color: $primeDark;
+  
+  &:hover {
+    text-decoration: none;
+    color: $second;
+    text-decoration: underline;
+  }
+}
+
+span {
+
+   &:hover {
     color: $active;
-   background: $prime;
-   
+    
+  }
 }
