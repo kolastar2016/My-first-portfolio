@@ -19,12 +19,11 @@
 
     @media (max-width: $screen-sm){
       display: block;
-
     }
   }
 
-     header {
-       padding-top: 4rem;
+  header {
+    padding-top: 4rem;
 
     @media (max-width: $screen-md){
       padding-top: 2rem;

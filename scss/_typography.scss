@@ -44,13 +44,12 @@ body {
   font-size: 1.4rem;
 }
 
-.h7{
-  
+.h7 {
   font-size: 1.35rem;
 }
 
 .h8 {
- font-size: 1.1rem; 
+  font-size: 1.1rem; 
 }
 
 .h9 {
@@ -58,14 +57,12 @@ body {
 }
 
 .h10{
-  
   font-size: 0.6rem;
 }
 
 p {
   font-family: "Open Sans italic";
   font-size: 1.8rem;
-     
 }
 
 a {
@@ -81,9 +78,7 @@ a {
 }
 
 span {
-
-   &:hover {
+  &:hover {
     color: $active;
-    
   }
 }
