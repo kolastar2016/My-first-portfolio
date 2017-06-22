@@ -3,8 +3,11 @@
 // ---------------------------
 
 .bd {
-	
 	border: 3px solid $second;
+}
+
+.ws {
+  word-spacing: 0.5em;
 }
 
 // Position
@@ -61,7 +64,6 @@
 .text-justify {
   text-align: justify;
 }
-
 
 .mobile-text-right {
   @media (max-width: 992px) {
@@ -150,10 +152,9 @@
   &.bg-prime {
     background-color: $prime;
 
-      &:hover {
-    background-color: $second;
-    
-  }
+    &:hover {
+      background-color: $second;
+    }
   }
 }
 
@@ -174,14 +175,13 @@
     background-color: $activeLight;
   }
 }
+
 // Cursor
 // -------------------------
-
 
 .pointer {
   cursor: pointer;
 }
-
 
 .mb-1 {
   margin-bottom: 1rem;
@@ -198,9 +198,11 @@
 .mb-4 {
   margin-bottom: 4rem;
 }
+
 .mb-5 {
   margin-bottom: 5rem;
 }
+
 .mb-10 {
   margin-bottom: 10rem;
 }
@@ -208,15 +210,19 @@
 .mbl-5{
   margin-left: 5rem;
 }
+
 .mbl-6{
   margin-left: 6rem;
 }
+
 .mbl-10{
   margin-left: 10rem;
 }
+
 .mbl-11{
   margin-left: 28rem;
 }
+
 mt-5{
   margin-top: 5rem;
 }
@@ -224,20 +230,16 @@ mt-5{
 //modal body and headers
 //-------------------------
 
-
-
 .modal-content {
-    background-color: transparent;
-    color: $secondDark
+  background-color: transparent;
+  color: $secondDark
 }
 
-.modal-header
-{
-    border-top-left-radius: 6rem;
-   -webkit-border-top-left-radius: 6rem;
-   
+.modal-header{
+  border-top-left-radius: 6rem;
+  -webkit-border-top-left-radius: 6rem;
 }
+
 .lineh {
-
-line-height: 5rem
+  line-height: 5rem
 }
